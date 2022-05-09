@@ -1,0 +1,99 @@
+<style>
+    .ot-form-consent {
+      max-width: 500px;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    .ot-form-signin .ot-checkbox {
+      margin-bottom: 10px;
+      font-weight: normal;
+    }
+    .ot-form-signin .ot-form-control {
+      position: relative;
+      height: auto;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      display: block;
+      width: 100%;
+      line-height: 1.25;
+      border: 1px solid rgba(19, 12, 12, 0.15);
+      border-radius: .25rem;
+    }
+    .ot-form-signin .ot-form-control:focus {
+      z-index: 2;
+    }
+    .ot-form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .ot-checkbox {
+      margin-top: 10px;
+    }
+    .ot-ml-1 {
+      margin-left: 1rem !important;
+    }
+    .ot-submit-button {
+      display: block;
+      padding: .75rem 1.5rem;
+      font-size: 1.25rem;
+      border-radius: .3rem;
+      color: #fff;
+      background-color: #0275d8;
+      border-color: #0275d8;
+      margin: auto;
+    }
+</style><form class="ot-form-consent" action="" method="post" data-ot-cp-id="aec6f41f-3018-42f7-b8cc-0849315e4c88-active">
+      <input type="hidden" id="confirmation" name="receiptId" value="" />
+      <label for="inputEmail">Mobile</label>
+  <input type="text" id="inputEmail" class="ot-form-control" placeholder="Mobile" required>
+      <label for="Date 09">Date 09</label>
+  <input type="text" id="Date 09" class="ot-form-control" placeholder="Date 09">
+      <div class="ot-checkbox">
+    <label>
+      <input value="Car 09" type="checkbox" > Car 09
+    </label>
+  </div>
+  <div class="ot-ml-1"><h5>colour 09</h5>
+    <div class="ot-checkbox">
+      <label>
+        <input value="red" type="checkbox" > red
+      </label>
+    </div>
+    <div class="ot-checkbox">
+      <label>
+        <input value="white" type="checkbox" > white
+      </label>
+    </div>
+    <div class="ot-checkbox">
+      <label>
+        <input value="blue" type="checkbox" > blue
+      </label>
+    </div><h5>price 09</h5>
+    <div class="ot-checkbox">
+      <label>
+        <input value="< 5lakhs" type="checkbox" > < 5lakhs
+      </label>
+    </div>
+    <div class="ot-checkbox">
+      <label>
+        <input value="5-10lakhs" type="checkbox" > 5-10lakhs
+      </label>
+    </div>
+    <div class="ot-checkbox">
+      <label>
+        <input value=">10lakhs" type="checkbox" > >10lakhs
+      </label>
+    </div>
+  </div>
+      <button id="trigger" class="ot-submit-button" type="submit">Submit form</button>
+</form>
+<script
+  src="https://auto-ds-cdn.1trust.app/consent-receipt-scripts/scripts/otconsent-1.0.min.js"
+  type="text/javascript"
+  data-ot-id="9e5e9df1-48fe-4348-b467-d38c5a25470b"
+  charset="UTF-8"
+  id="consent-receipt-script"
+  data-ot-consent-register-event="document-load"
+></script>
